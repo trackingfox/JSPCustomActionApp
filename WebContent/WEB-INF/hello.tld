@@ -1,0 +1,19 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.3</jsp-version>
+
+	<tag>
+		<name>hello</name>
+		<tag-class>com.abc.handler.Hello</tag-class>
+		<body-content>jsp</body-content>
+		<attribute>
+			<name>
+				name
+			</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+
+</taglib>
